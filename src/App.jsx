@@ -9,7 +9,6 @@ function App() {
     <>
       <div className='flex min-h-screen w-full'>
         <Header />
-
         <main className='flex-3'>
           <Home />
           <Projects />
