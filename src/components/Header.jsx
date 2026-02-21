@@ -5,6 +5,7 @@ import { IoIosContact } from "react-icons/io";
 function Header() {
   return (
     <div className="md:flex-1">
+      {/* Left header (hides when screen is smaller than md) */}
       <div className="min-h-screen top-0 hidden md:sticky md:flex items-center justify-center bg-teal-600 text-white">
         <ul className="flex flex-col gap-10">
           {['home','projects','contact']
@@ -18,7 +19,7 @@ function Header() {
 
         </ul>
       </div>
-
+      {/* Top header (only appears when smaller than md) */}
       <div className="fixed left-0 right-0 top-0 z-10 flex justify-evenly bg-teal-600 p-5 text-white md:hidden">
         <a href="#home" className="flex flex-col">
           <FaHome className="text-2xl "/>
