@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa6";
 
 function Home() {
   return (
-    <div className="flex min-h-screen w-full items-center justify-center">
+    <div id='Home' className="flex min-h-screen w-full items-center justify-center">
       <div className="flex flex-col items-center justify-center gap-8 p-5 text-center">
         <img src={image} className="w-[250px] sm:w-[300px] rounded-full"></img>
 
@@ -13,7 +13,7 @@ function Home() {
           <p className='max-w-[500px] text-sm text-gray-500'>After a career focused on marketing, I decided to switch gears and dive into the tech industry. I studied web development to gain the hands-on skills needed to build digital products from the ground up. Now, I’m officially starting my journey as a programmer and am excited to tackle new coding challenges.</p>
         </div>
         <div className='flex gap-3'>
-          <FaGithub className='h-10 w-10 cursor-pointer rounded-full border-2 p-1'/>
+          <a href='https://github.com/daleespi93'><FaGithub className='h-10 w-10 cursor-pointer rounded-full border-2 p-1'/></a>
           <FaLinkedin className='h-10 w-10 cursor-pointer rounded-full border-2 p-1'/>
           <FaFacebook className='h-10 w-10 cursor-pointer rounded-full border-2 p-1'/>
         </div>

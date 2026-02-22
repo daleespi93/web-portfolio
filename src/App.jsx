@@ -2,6 +2,7 @@ import Home from "./components/Home"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Header from "./components/Header"
+import Experience from "./components/Experience"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Header />
         <main className='flex-3'>
           <Home />
+          <Experience />
           <Projects />
           <Contact />
         </main>
