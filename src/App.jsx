@@ -4,7 +4,6 @@ import Contact from "./components/Contact"
 import Header from "./components/Header"
 import Experience from "./components/Experience"
 import DarkMode from "./components/DarkMode"
-import { useState } from "react"
 import useLocalStorage from "use-local-storage"
 
 function App() {
