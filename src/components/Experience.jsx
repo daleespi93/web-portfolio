@@ -6,7 +6,7 @@ function Experience() {
         <h1 className='text-center text-5xl font-light dark:text-white'>Experience</h1>
         <div>
             <div className='max-w-3xl'>
-                {/* each div here is one card */}
+                {/* card #1 */}
                 <div className="relative space-y-1 border-l-2 p-8 text-left dark:border-zinc-200">
                     <h3 className='text-xl font-semibold md:text-2xl dark:text-white'>Z Suds Laundromat</h3>
                     <p className='font-light text-lg text-gray-600 dark:text-white'>Operations Manager</p>
@@ -16,12 +16,14 @@ function Experience() {
                         I also led local marketing efforts through social media and flyers to bring in new faces and keep regulars coming back.</p>
                     <span className='absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-[#3780C8] dark:bg-zinc-400'></span>
                 </div>
+                {/* card #2 */}
                 <div className="relative space-y-1 border-l-2 p-8 text-left dark:border-zinc-200">
                     <h3 className='text-xl font-semibold md:text-2xl dark:text-white'>Espiritu Farm</h3>
                     <p className='font-light text-lg text-gray-600 dark:text-white'>Farm Sales Coordinator</p>
                     <p className='text-sm text-gray-600 text-justify dark:text-gray-100'>I connected with new customers and built strong relationships with buyers to keep our produce moving. By managing orders and delivery schedules, I made sure every harvest was sold on time and arrived in great condition. I paid close attention to what customers wanted so we could match our stock to their needs. This approach helped us sell more of our crop while cutting down on spoilage and unsold inventory.</p>
                     <span className='absolute -left-[11px] top-10 h-5 w-5 rounded-full bg-[#3780C8] dark:bg-zinc-400'></span>
                 </div>
+                {/* card #3 */}
                 <div className="relative space-y-1 border-l-2 p-8 text-left dark:border-zinc-200">
                     <h3 className='text-xl font-semibold md:text-2xl dark:text-white'>Rarejob Inc.</h3>
                     <p className='font-light text-lg text-gray-600 dark:text-white'>ESL Teacher</p>
