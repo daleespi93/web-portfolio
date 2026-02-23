@@ -4,11 +4,10 @@ import { IoIosContact } from "react-icons/io";
 
 function Header() {
   const arr = ['Home','Experience','Projects','Contact']
-  
   return (
     <div className="md:flex-1">
       {/* Left header (hides when screen is smaller than md) */}
-      <div className="min-h-screen top-0 hidden md:sticky md:flex items-center justify-center bg-teal-600 text-white">
+      <div className="min-h-screen top-0 hidden md:sticky md:flex items-center justify-center bg-[#3780C8] text-white dark:bg-zinc-800">
         <ul className="flex flex-col gap-10">
           {arr
           .map((item) => (
@@ -22,7 +21,7 @@ function Header() {
         </ul>
       </div>
       {/* Top header (only appears when screen is smaller than md) */}
-      <div className="fixed left-0 right-0 top-0 z-10 flex justify-evenly bg-teal-600 p-5 text-white md:hidden">
+      <div className="fixed left-0 right-0 top-0 z-9 flex justify-evenly bg-[#3780C8] p-5 text-white md:hidden dark:bg-zinc-800">
         <a href="#Home" className="flex flex-col justify-center items-center">
           <FaHome className="text-2xl "/>
           <span className="text-xs">Home</span>
