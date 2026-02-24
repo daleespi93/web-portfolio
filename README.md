@@ -20,3 +20,4 @@ Technologies used in the project:
 
 *   Vite
 *   TailwindCSS
+*   React Icons
